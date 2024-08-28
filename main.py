@@ -16,7 +16,7 @@ async def read_item(item_id: int):
 
 # Load your models
 model = joblib.load('knn_model.joblib')
-scaler = joblib.load('Models/scaler.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # Define input data model
 class InputFeatures(BaseModel):
