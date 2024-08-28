@@ -1,5 +1,5 @@
 fastapi==0.112.2
 joblib
-gunicorn
+uvicorn
 scikit-learn==1.3.0
 numpy==1.23.5
